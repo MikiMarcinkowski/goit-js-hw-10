@@ -10,13 +10,14 @@ import axios from 'axios';
 axios.defaults.headers.common['x-api-key'] =
   'live_hmn1n1og6YXJ06D010VbCePU5aGk8e0cIa7QNNuHApIlzqZTBBCeJjR7zyvirFXY';
 
-  
+  import { fetchBreeds, fetchCatByBreed } from './js/cat-api.js';
 
-const fetchBreeds = () => {
-  const url = 'https://api.thecatapi.com/v1/breeds';   
-};
 
 const loader = document.querySelector('.loader');
 const errorTheme = document.querySelector('.error');
 const catInfo = document.querySelector('.cat-info');
 const select = document.querySelector('.breed-select');
+
+
+
+
