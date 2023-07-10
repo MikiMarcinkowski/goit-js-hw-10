@@ -6,7 +6,9 @@
     display: block;
 }
 
-
+.cat-info {
+    margin-top: 50px;
+}
 
 .loader {
             position: relative;
