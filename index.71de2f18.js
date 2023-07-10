@@ -3,5 +3,5 @@ function t(t){return t&&t.__esModule?t.default:t}var e="undefined"!=typeof globa
     <h1>${i[0].name}</h1>
     <p>${i[0].description}</p>
     <p><b>Temperament:</b> ${i[0].temperament}</p>
-    </div>`,o.classList.remove("is-hidden"),o.style.display="flex"}).catch(c)}),t(a).Notify.success("Choose your cat");
-//# sourceMappingURL=index.5b6b1caa.js.map
+    </div>`,o.classList.remove("is-hidden"),o.style.display="flex"}).catch(c)});
+//# sourceMappingURL=index.71de2f18.js.map
