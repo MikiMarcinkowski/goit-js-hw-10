@@ -30,7 +30,6 @@ fetchBreeds()
 
 select.addEventListener('change', selectBreed);
 
-Notiflix.Notify.success('Choose your cat');
 
 function selectBreed(event) {
   loader.innerHTML = '';
