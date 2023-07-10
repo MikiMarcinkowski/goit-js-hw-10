@@ -3,8 +3,13 @@ const url = 'https://api.thecatapi.com/v1/breeds';
 const apiKey =
   'live_hmn1n1og6YXJ06D010VbCePU5aGk8e0cIa7QNNuHApIlzqZTBBCeJjR7zyvirFXY';
 
+  // import axios from 'axios';
+  // axios.defaults.headers.common['x-api-key'] = apiKey;
+
 export function fetchBreeds() {
-  return fetch(`${url}?api_key=${apiKey}`).then(response => {
+//  axios.get(url)
+  return fetch(`${url}?api_key=${apiKey}`)
+    .then(response => {
     if (!response.ok) {
       throw new Error(response.status);
     }
